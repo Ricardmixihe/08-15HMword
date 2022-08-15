@@ -1,0 +1,269 @@
+.view{
+    width: 100%;
+    position: relative;
+}
+/* #顶部标题区 */
+.top{
+    display:flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.top span{
+    font-family: '黑体';
+}
+.top h4{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+/* 订单主体 */
+.order-body{
+    width: 100%;
+    height: 766px;
+    background-color:#f7f7f8;
+    padding: 10px 11px;
+    box-sizing: border-box;
+}
+/* 收货地址区 */
+.address{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    width: 30px;
+    height: 30px;
+    border: 1px dashed #3a9cff;
+    background-color: rgb(167, 187, 181);
+    text-align: center;
+    line-height: 30px;
+    justify-content: space-between;
+}
+.left span{
+   width: 12px;
+   height: 17px;
+   background-image: linear-gradient(90deg, #6fc2aa 5%,#54b196 100%);
+   color: #ffffff;
+   border-radius: 50%;
+
+}
+.left span .iconfont{
+    font-size: 19px;
+}
+.middle-text{
+    margin-left: 5px;
+}
+.middle-text p{
+    font-size: 14px;
+}
+
+.right{
+    width: 44px;
+    height: 44px;
+    border: 1px dashed #3a9cff ;
+    background-color: #2ad1ff;
+    text-align: center;
+    line-height: 44px;
+}
+
+/* 商品名称？ */
+.store-name{
+    width: 100%;
+    height: 105px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    /* padding: 10px 0px;
+    box-sizing: border-box; */
+}
+.store-img{
+    line-height: 105px;
+    width: 85px;
+    height: 85px;
+    margin-left: 10px;
+    padding: 0 14px;
+}
+.store-p{
+    justify-content: space-between;
+
+}
+.store-p p{
+    margin: 5px;
+    box-sizing: border-box;
+}
+.store-p p:nth-child(1){
+    font-family: PingFangSC-Regular;
+    width: 192px;
+    height: 32px;
+    font-size: 13px;
+}
+.store-p p:nth-child(2){
+    margin: 10px;
+    background-color:#d7d6d6 ;
+    width: 82px;
+    font-size: 11px;
+    color: #888888;
+
+}
+.store-p p:nth-child(3){
+    font-size: 16px;       
+    color: #cf4444;
+
+}
+.store-p del{
+    font-size: 12px;
+    color: #999999;
+}
+
+.font{
+    display: flex;
+}
+
+.x1{
+    align-self: center;
+}
+/* 配送方式 */
+.idea{
+    width: 100%;
+    height: 105px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    padding: 13px;
+}
+.idea-1{
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 14px;
+
+}
+.idea-1 p:nth-child(1){
+    flex: 8;
+}
+.idea-1 p:nth-child(2){
+    flex: 2;
+}
+.idea-2{
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 14px;
+
+}
+.idea-2 p:nth-child(1){
+    flex: 3;
+}
+.idea-2 p:nth-child(2){
+    font-size: 12px;
+    color: #989898;
+    line-height: 24px;
+    flex: 7;
+
+}
+.idea-3{
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 0 14px;
+
+}
+.idea-3 p:nth-child(1){
+    flex: 8;
+}
+.idea-3 p:nth-child(2){
+    flex: 2;
+}
+.value{
+    width: 100%;
+    height: 105px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    padding: 13px;
+}
+.idea-4{
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 14px;
+}
+.idea-4 p:nth-child(1){
+    flex: 8;
+}
+.idea-4 p:nth-child(2){
+    flex: 2;
+    color: #cf4444;
+}
+/* 结算？ */
+.pay{
+    width: 100%;
+    height: 79px;
+    display: flex;
+    flex-direction:row;
+
+
+}
+.pay{
+    display: flex;
+    background-color: #ffffff;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+.pay-p p{
+    display: block;
+    line-height: 79px;
+    margin-left: 10px;
+}
+.pay p:nth-child(1){
+    font-size: 11px;
+    float: left;
+    color: #1e1e1e;
+}
+.pay p:nth-child(2){
+    font-size: 20px;
+    float: left;
+    color: #cf4444;
+}
+.pay-d{
+    width: 90px;
+    height: 35px;
+    background-image: linear-gradient(90deg, 
+		#6fc2aa 5%, 
+		#54b196 100%);
+}
+
+.pay-d p:nth-child(1) {
+    text-align: center;
+    font-size: 13px;
+    display: block;
+    color: whitesmoke;
+    line-height: 35px;
+    margin-left: 25px;
+    
+}
